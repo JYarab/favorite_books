@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import Book, User
 import bcrypt
-from datetime import datetime
+
 
 # base route to login/reg page
 def index(request):
